@@ -1,2 +1,44 @@
 /* I don't program */
-body {background-color: #1f1f1f; color: #FFFFFF;  text-align:center; font-family:'Arial';}
+body {
+  background-color: #575757;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: 'Arial';
+  margin: 20px
+}
+
+.content {
+  height: 250px;
+  box-shadow: #2b2b2b 0 0 10px;
+  background: #2b2b2b;
+}
+
+.heador {
+  list-style: none;
+  font-size: 11px;
+  text-align: center;
+  border: black 2px solid;
+  border-radius: 4px;
+  background: black;
+  padding: 5px;
+  margin: auto;
+  width: 220px;
+  margin-bottom: 2%;
+}
+
+
+.heador li {
+  padding-bottom: 5px;
+  display: inline;
+}
+
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  font-weight: bold;
+  text-shadow: white 0 0 2px;
+}
