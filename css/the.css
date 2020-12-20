@@ -2,7 +2,7 @@ body {
   background-color: #575757;
   color: #FFFFFF;
   font-family: 'Arial';
-  margin: 50px
+  margin: 50px auto;
 }
 
 .content {
@@ -28,13 +28,18 @@ body {
   margin-bottom: 2%;
 }
 
+
 .heador li {
   padding-bottom: 5px;
   display: inline;
 }
 
-a {
+
+.heador a {
   text-decoration: none;
+}
+
+a {
   color: white;
 }
 
@@ -46,4 +51,8 @@ a:hover {
 .quote {
   font-size:17px;
   margin:2px;
+}
+
+h1, h2 {
+  margin: 2px;
 }
