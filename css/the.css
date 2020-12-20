@@ -12,6 +12,7 @@ body {
   width: 630px;
   margin: auto;
   font-size: 14px;
+  padding:4px;
 }
 
 .heador {
@@ -27,12 +28,10 @@ body {
   margin-bottom: 2%;
 }
 
-
 .heador li {
   padding-bottom: 5px;
   display: inline;
 }
-
 
 a {
   text-decoration: none;
@@ -42,4 +41,9 @@ a {
 a:hover {
   font-weight: bold;
   text-shadow: white 0 0 2px;
+}
+
+.quote {
+  font-size:17px;
+  margin:2px;
 }
