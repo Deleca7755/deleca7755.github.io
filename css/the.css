@@ -34,7 +34,6 @@ body {
   display: inline;
 }
 
-
 .heador a {
   text-decoration: none;
 }
@@ -48,11 +47,35 @@ a:hover {
   text-shadow: white 0 0 2px;
 }
 
+.quote::after {
+content: '"';
+}
+
+.quote::before {
+content: '"';
+}
+
 .quote {
-  font-size:17px;
+  font-size:16px;
   margin:2px;
+  padding-bottom: 4px;
+}
+
+.quotesource {
+  color:#b0b0b0;
 }
 
 h1, h2 {
   margin-bottom: 6px;
+}
+
+.blockqwote {
+    border-left: 3px solid white;
+    padding: 5px;
+}
+
+blockquote {
+  margin-bottom: 1px;
+  margin-top: 1px;
+  font-size:14px;
 }
