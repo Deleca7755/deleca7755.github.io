@@ -13,7 +13,8 @@ body {
   width: 60%;
   margin: auto;
   font-size: 14px;
-  padding:4px;
+  padding: 4px;
+  overflow: auto;
 }
 
 .heador {
