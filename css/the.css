@@ -5,11 +5,15 @@
     font-style: normal;
 }
 
+::-webkit-scrollbar {width: 8px;}
+::-webkit-scrollbar-thumb {background: #322A36;}
+::-webkit-scrollbar-track {background: #59545C;}
+
 body {
   background-color: #423a45;
   color: #FFFFFF;
   font-family: 'Simvoni';
-  margin: 40px 0;
+  margin: 1.5em auto 2em auto;
   overflow: auto;
 }
 
