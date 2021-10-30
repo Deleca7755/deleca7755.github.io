@@ -65,8 +65,13 @@ a:hover {text-shadow: #FFFFFF66 0 0 3px;}
   text-shadow: #FFFFFF 0 0 3px;
 }
 
+p .aboutie {
+  word-spacing: 1pt;
+  line-height: 20px;
+}
+
 .quote::after, .quote::before {
-content: '"';
+  content: '"';
 }
 
 .quote {
@@ -103,6 +108,7 @@ blockquote {
 .footertextleft {position: absolute;}
 
 .footertextright {float: right;}
+
 
 /* 404 page */
 
