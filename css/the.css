@@ -154,6 +154,8 @@ footer li {display: inline;}
  .heador {
   font-size: 21px;
  }
+    
+  footer { padding-top: 1%;}
 
   footer li {
    display: block;
