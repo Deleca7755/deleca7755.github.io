@@ -13,6 +13,13 @@ body {
   overflow: auto;
 }
 
+@media only screen
+and (max-width : 320px) {
+.content {
+    width: 90%;
+  }
+}
+
 a {color: #FFFFFF66; text-decoration: none;}
 
 a:hover {text-shadow: #FFFFFF66 0 0 3px;}
