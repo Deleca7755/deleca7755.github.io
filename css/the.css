@@ -13,12 +13,6 @@ body {
   overflow: auto;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
-.content {
-    width: 90%;
-  }
-}
-
 a {color: #FFFFFF66; text-decoration: none;}
 
 a:hover {text-shadow: #FFFFFF66 0 0 3px;}
@@ -28,7 +22,7 @@ a:hover {text-shadow: #FFFFFF66 0 0 3px;}
   text-shadow: -1px 1px #211c24;
   box-shadow: #322A3680 0 5px 10px;
   background: #322a36;
-  width: 790px;
+  width: 60%;
   font-size: 18px;
   padding: 10px;
   overflow: auto;
@@ -45,7 +39,7 @@ a:hover {text-shadow: #FFFFFF66 0 0 3px;}
 
 .heador {
   list-style: none;
-  font-size: 24px;
+  font-size: 25px;
   /* background: #00000080; */
   padding: 0;
   margin: auto;
@@ -116,14 +110,12 @@ footer {
   font-size: 15px;
   width: 95%;
   margin: auto;
-  padding-top: 5px;
+  padding-top: 0.5%;
 }
 
-footer li {
-  display: inline;
-}
+footer li {display: inline;}
 
-.footertextleft {float: left;}
+.footertextleft {float: left;line-height: 16px;}
 
 .footertextright {float: right;}
 
@@ -132,7 +124,7 @@ footer li {
 
 .error {
   font-size: 25px;
-  text-align: center
+  text-align: center;
 }
 
 .error img {
@@ -143,16 +135,125 @@ footer li {
 }
 
 
-/* 404 page */
+/* MO BILE SEE ESS ESS */
 
-.error {
-  font-size: 25px;
-  text-align: center
+/** Phones - portrait **/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+.content {
+    width: 90%;
+    font-size: 20px;
+  }
+
+  .intro img {
+    width: 80%;
+    float: none;
+ }
+
+ .heador {
+  font-size: 21px;
+ }
+
+  footer li {
+   display: block;
+   text-align:center;
+   font-size: 17px;
 }
 
-.error img {
-   width: 30%;
-   margin-top: 2em;
-   position: fixed;
-   left: 35%;
+  .footertextleft, .footertextright {float: none;}
+
+  .footertextright {padding-top:5px;}
+}
+
+
+/** Phones - landscape **/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+.content {
+    width: 95%;
+  }
+
+   .intro img {
+   width: 50%;
+   padding-top: 2em;
+  }
+}
+
+
+/** iPad - portrait **/
+@media (min-width: 768px) and (max-width: 1024px) {
+
+ .content {
+   width: 95%;
+   font-size: 24px;
+ }
+
+  .intro img { 
+   width: 50%; 
+   padding-top: 5em;
+}
+   
+  .introtext {  width: 50%; }
+
+  .heador {  font-size: 30px; }
+
+   footer {  font-size: 20px; }
+
+   footer li {
+   display: block;
+   text-align:center;
+   font-size: 21px;
+}
+
+  .footertextleft, .footertextright {float: none;}
+
+  .footertextright {padding-top:5px};
+}
+
+
+/** iPad - landscape **/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+ .content {
+   width: 95%;
+   font-size: 24px;
+ }
+
+   .intro img { 
+   width: 40%; 
+   padding-top: 0;
+}
+
+ .introtext {  width: 60%; }
+
+ .heador { font-size: 30px; }
+
+  footer { font-size: 20px; }
+}
+
+
+/** iPhone 10 landscape ://// **/
+
+@media (width: 812px) {
+
+ .content {
+   width: 95%;
+   font-size: 18px;
+ }
+
+  .introtext {
+   width: initial;
+ }
+
+  .intro img {
+   width: 38%;
+   padding: initial;
+ }
+
+   footer li {
+  font-size: initial;
+ }
+
 }
