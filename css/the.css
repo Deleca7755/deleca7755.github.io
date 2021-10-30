@@ -28,6 +28,12 @@ body {
   text-align: center;
   width: 250px;
   margin-bottom: 2%;
+  transition: width, 0.2s;
+}
+
+.heador:hover {
+  width: 290px;
+  transition: width, 0.2s;
 }
 
 .heador li {
