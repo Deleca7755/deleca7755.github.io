@@ -73,8 +73,8 @@ a:hover {text-shadow: #FFFFFF66 0 0 3px;}
 }
 
 .aboutie {
-  word-spacing: 1pt;
-  line-height: 20px;
+  word-spacing: 1.5pt;
+  line-height: 21px;
 }
 
 .quote::after, .quote::before {
@@ -125,8 +125,8 @@ blockquote {
 }
 
 .error img {
-  width: 40%;
-  display: block;
-  margin: auto;
-  margin-top: 1em;
+   width: 30%;
+   margin-top: 2em;
+   position: fixed;
+   left: 35%;
 }
