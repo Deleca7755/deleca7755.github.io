@@ -116,11 +116,31 @@ footer {
   font-size: 15px;
   width: 95%;
   margin: auto;
+  padding-top: 5px;
 }
 
-.footertextleft {position: absolute;}
+footer li {
+  display: inline;
+}
+
+.footertextleft {float: left;}
 
 .footertextright {float: right;}
+
+
+/* 404 page */
+
+.error {
+  font-size: 25px;
+  text-align: center
+}
+
+.error img {
+   width: 30%;
+   margin-top: 2em;
+   position: fixed;
+   left: 35%;
+}
 
 
 /* 404 page */
