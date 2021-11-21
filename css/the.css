@@ -1,10 +1,16 @@
 @font-face {
     font-family: 'Simvoni';
-    src: url("/Simvoni.ttf") format('truetype'), local('Helvetica'); 
+    src: url("/Simvoni.ttf") format('truetype'); 
     font-weight: normal;
     font-style: normal;
+}
+
+@font-face {
+    font-family: 'Simvoni';
+    src: url("/Simvoni.ttf") format('truetype'), local('Arial'); 
     unicode-range: U+2665;
 }
+
 
 ::-webkit-scrollbar {width: 8px;}
 ::-webkit-scrollbar-thumb {background: #322A36;}
