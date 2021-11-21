@@ -1,8 +1,9 @@
 @font-face {
     font-family: 'Simvoni';
-    src: url("/Simvoni.ttf") format('truetype');
+    src: url("/Simvoni.ttf") format('truetype'), local('Helvetica'); 
     font-weight: normal;
     font-style: normal;
+    unicode-range: U+2665;
 }
 
 ::-webkit-scrollbar {width: 8px;}
