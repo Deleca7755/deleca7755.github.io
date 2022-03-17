@@ -34,7 +34,7 @@ a:hover {text-shadow: #FFFFFF66 0 0 3px;}
   box-shadow: #322A3680 0 5px 10px;
   background: #322a36;
   width: 60%;
-  font-size: 18px;
+  font-size: 17px;
   padding: 10px;
   overflow: auto;
   margin: 2em auto 3em auto ;
@@ -154,7 +154,7 @@ footer li {display: inline;}
 
 .content {
     width: 90%;
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .intro img {
