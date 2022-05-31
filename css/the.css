@@ -171,7 +171,7 @@ footer li {display: inline;}
   footer li {
    display: block;
    text-align:center;
-   font-size: 17px;
+   font-size: 15px;
 }
 
   .footertextleft, .footertextright {float: none;}
