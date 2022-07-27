@@ -11,7 +11,6 @@
     unicode-range: U+2665;
 }
 
-
 ::-webkit-scrollbar {width: 8px;}
 ::-webkit-scrollbar-thumb {background: #322A36;}
 ::-webkit-scrollbar-track {background: #59545C;}
@@ -93,23 +92,20 @@ a:hover {text-shadow: #FFFFFF66 0 0 3px;}
 }
 
 .quote {
-  font-size:16px;
   margin:2px;
   padding-bottom: 4px;
 }
 
 .quotesource {
   color:#b0b0b0;
+  margin-bottom: 10px;
 }
 
 h1, h2 {margin-bottom: 6px; color: #9b969e;}
 
-.blockqwote {
-    border-left: 3px solid white;
-    padding: 5px;
-}
-
 blockquote {
+   border-left: 3px solid white;
+  padding: 5px;
   margin-bottom: 1px;
   margin-top: 1px;
   font-size: 14px;
