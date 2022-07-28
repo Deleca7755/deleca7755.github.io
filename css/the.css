@@ -41,7 +41,7 @@ a:hover {text-shadow: #FFFFFF66 0 0 3px;}
   border-radius: 4px;
 }
 
-.intro img {
+img.intro {
     width: 40%;
     float: right;
     padding: 5px 5px 5px 0;
@@ -154,7 +154,7 @@ footer li {display: inline;}
     font-size: 18px;
   }
 
-.intro img {
+img.intro {
     width: 80%;
     float: none;
  }
@@ -185,7 +185,7 @@ footer li {
     width: 95%;
   }
 
-.intro img {
+img.intro {
    width: 50%;
    padding-top: 2em;
   }
@@ -200,7 +200,7 @@ footer li {
    font-size: 24px;
  }
 
-.intro img { 
+img.intro { 
    width: 50%; 
    padding-top: 5em;
 }
@@ -231,7 +231,7 @@ footer li {
    font-size: 24px;
  }
 
-.intro img { 
+img.intro { 
    width: 40%; 
    padding-top: 0;
 }
@@ -257,7 +257,7 @@ footer { font-size: 20px; }
    width: initial;
  }
 
-.intro img {
+img.intro {
    width: 38%;
    padding: initial;
  }
