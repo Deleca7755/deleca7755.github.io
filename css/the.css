@@ -138,9 +138,12 @@ footer li {display: inline;}
 
 /* 404 page */
 
-h1.error,  p.error {
-	font-size: 25px;
+.error {
 	text-align: center;
+}
+
+p.error {
+	font-size: 25px;
 }
 
 .error img {
