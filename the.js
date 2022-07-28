@@ -1,4 +1,4 @@
 var pjax = new Pjax({
-  elements: "a" 
+  elements: "a",
   selectors: [".heador", ".content"]
-})
+});
