@@ -45,6 +45,10 @@ p {
 	margin: 0 0 15px 0;
 }
 
+hr {
+ 	border: #423a45 solid 2px;
+ }
+
 .heador {
 	list-style: none;
 	font-size: 25px;
@@ -52,11 +56,11 @@ p {
 	margin: auto;
 	text-align: center;
 	word-spacing: 6px;
-	transition: /* width  0.4s,  background 0.4s, */ word-spacing 0.4s;
-	}
+	transition: word-spacing 0.4s;
+}
 
 .heador:hover {
-	transition: /* width  0.4s,  background 0.4s, */ word-spacing 0.4s;
+	transition: word-spacing 0.4s;
 	word-spacing: 12px;
 }
 
@@ -131,6 +135,7 @@ blockquote {
 	margin-bottom: 1px;
 	margin-top: 1px;
 	font-size: 14px;
+	text-align: left;
 }
 
 footer {
