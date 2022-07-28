@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-<script src="https://cdn.jsdelivr.net/npm/pjax@VERSION/pjax.min.js"></script>
-<script>var pjax = new Pjax({ elements: "a" })</script>
 <link rel="stylesheet" type="text/css" href="/css/the.css">
 <html>
 <head>
@@ -8,7 +6,6 @@
 <title>{{ page.title }}</title>
 </head>
 <body>
-<div class="container">
 <nav>
   <ul class=heador>
     <li><a href="/">Intro</a></li>
@@ -25,9 +22,12 @@
   </div>
 <footer>
  <ul style="margin: 0; padding: 0;">
-   <li class="footertextleft">Deleca7755, 2020 ― present. Made with <s>♥︎&#xFE0E; or something like that</s> <a href="https://github.com/">GitHub</a></li><li class="footertextright" style="
-">Font Simvoni by Amru</li>
+   <li class="footertextleft">Deleca7755, 2020 ― present. Made with <s>♥︎&#xFE0E; or something like that</s> <a href="https://github.com/">GitHub</a></li><li class="footertextright">Font Simvoni by Amru</li>
   </ul>
 </footer>
-</div>
+<script src="https://cdn.jsdelivr.net/npm/pjax@VERSION/pjax.min.js"></script>
+<script>var pjax = new Pjax({
+  elements: "a" 
+  selectors: [".heador", ".content"]
+})</script>
 </body>
