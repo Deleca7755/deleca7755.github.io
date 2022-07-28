@@ -6,7 +6,7 @@
 <title>{{ page.title }}</title>
 </head>
 <body>
-<script src="https://cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.min.js"></script>
+<script src="pjax.min.js"></script>
 <nav>
   <ul class=heador>
     <li><a href="/">Intro</a></li>
@@ -30,6 +30,7 @@
 </footer>
 <script type="text/javascript">
   var pjax = new Pjax({
+  cacheBust: false,
   elements: "a",
   selectors: [".content"]
 });
