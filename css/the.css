@@ -154,26 +154,26 @@ footer li {display: inline;}
     font-size: 18px;
   }
 
-  .intro img {
+.intro img {
     width: 80%;
     float: none;
  }
 
- .heador {
+.heador {
   font-size: 21px;
  }
     
-  footer { padding-top: 1%;}
+footer { padding-top: 1%;}
 
-  footer li {
+footer li {
    display: block;
    text-align:center;
    font-size: 15px;
 }
 
-  .footertextleft, .footertextright {float: none;}
+.footertextleft, .footertextright {float: none;}
 
-  .footertextright {padding-top:5px;}
+.footertextright {padding-top:5px;}
 }
 
 
@@ -185,7 +185,7 @@ footer li {display: inline;}
     width: 95%;
   }
 
-   .intro img {
+.intro img {
    width: 50%;
    padding-top: 2em;
   }
@@ -195,52 +195,52 @@ footer li {display: inline;}
 /** iPad - portrait **/
 @media (min-width: 768px) and (max-width: 1024px) {
 
- .content {
+.content {
    width: 95%;
    font-size: 24px;
  }
 
-  .intro img { 
+.intro img { 
    width: 50%; 
    padding-top: 5em;
 }
    
-  .introtext {  width: 50%; }
+.introtext {  width: 50%; }
 
-  .heador {  font-size: 30px; }
+.heador {  font-size: 30px; }
 
-   footer {  font-size: 20px; }
+footer {  font-size: 20px; }
 
-   footer li {
+footer li {
    display: block;
    text-align:center;
    font-size: 21px;
 }
 
-  .footertextleft, .footertextright {float: none;}
+.footertextleft, .footertextright {float: none;}
 
-  .footertextright {padding-top:5px};
+.footertextright {padding-top:5px};
 }
 
 
 /** iPad - landscape **/
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 
- .content {
+.content {
    width: 95%;
    font-size: 24px;
  }
 
-   .intro img { 
+.intro img { 
    width: 40%; 
    padding-top: 0;
 }
 
- .introtext {  width: 60%; }
+.introtext {  width: 60%; }
 
- .heador { font-size: 30px; }
+.heador { font-size: 30px; }
 
-  footer { font-size: 20px; }
+footer { font-size: 20px; }
 }
 
 
@@ -248,21 +248,21 @@ footer li {display: inline;}
 
 @media (width: 812px) {
 
- .content {
+.content {
    width: 95%;
    font-size: 18px;
  }
-
-  .introtext {
+ 
+.introtext {
    width: initial;
  }
 
-  .intro img {
+.intro img {
    width: 38%;
    padding: initial;
  }
 
-   footer li {
+footer li {
   font-size: 16px;
  }
 
