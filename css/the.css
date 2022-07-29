@@ -167,10 +167,6 @@ footer li {
 	display: inline;
 }
 
-.footerleft {
-	float: left;
-}
-
 .footerright {
 	float: right;
 }
@@ -201,7 +197,6 @@ footer li {
 
 	.container {
 		width: 90%;
-		font-size: 18px;
 	}
 	
 	img.intro {
@@ -250,13 +245,14 @@ footer li {
 	   width: 95%;
 	   font-size: 18px;
 	}
-	 
-	.introtext {
-	   width: initial;
+	
+	.header {
+	  font-size: 25px;
 	}
 	
 	img.intro {
-	   width: 35%;
+	  width: 30%;
+		padding-top: 2em;
 	}
 	
 	footer li {
@@ -264,7 +260,11 @@ footer li {
  	}
 	
 	.error  {
-		font-size: 20;
+		font-size: 15;
+	}
+	
+	.containerror img  {
+		width: 22%;
 	}
 }
 
