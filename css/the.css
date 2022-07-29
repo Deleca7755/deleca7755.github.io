@@ -217,14 +217,15 @@ footer li {
 	.footerleft, .footerright {float: none;}
 	
 	.footerright {padding-top:5px;}
-}
 
-.containerror img {
-	width: 100%;
-}
+	.containerror img {
+		width: 100%;
+	}
+	
+	.containerror {
+		bottom: 100;
+	}
 
-.containerror {
-	bottom: 100;
 }
 
 /** Phones - landscape **/
