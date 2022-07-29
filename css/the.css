@@ -210,13 +210,13 @@ footer li {
 		font-size: 25px;
 	}
 	
-	footer li {
-	   display: block;
-	   text-align:center;
+	footer ul {
+	 	 display: initial;
+	   text-align: center;
 	   font-size: 15px;
 	}
 	
-	.footerleft, .footerright {float: none;}
+	.footerright, .footerleft {display: block;}
 	
 	.footerright {padding-top:5px;}
 
