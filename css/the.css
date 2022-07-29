@@ -51,12 +51,15 @@ hr {
 
 .header {
 	display: flex;
-	margin: 1em 0 0 0;
+	margin: 1em auto 0 auto;
 	font-size: 25px;
 	justify-content: center;
+	width: min-content;
+	padding: 0;
+	list-style: none;
 }
 
-.header:hover li {
+.header:hover > li {
 	transition: padding 0.4s;
 	padding: 5px 10px;
 }
@@ -155,13 +158,17 @@ footer {
   overflow: auto;
 }
 
+footer > ul {
+	margin: 0;
+	padding: 0;
+}
+
 footer li {
 	display: inline;
 }
 
 .footerleft {
-	float: left; 
-	line-height: 16px;
+	float: left;
 }
 
 .footerright {
