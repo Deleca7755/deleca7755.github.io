@@ -49,6 +49,13 @@ hr {
  	border: #423a45 solid 2px;
 }
 
+.header {
+	display: flex;
+	margin: 1em 0 0 0;
+	font-size: 25px;
+	justify-content: center;
+}
+
 .header:hover li {
 	transition: padding 0.4s;
 	padding: 5px 10px;
@@ -139,12 +146,13 @@ blockquote {
 }
 
 footer {
-	border-top: #59545c solid 2px;
-	color: #59545c;
-	font-size: 15px;
-	width: 95%;
-	margin: auto;
-	padding-top: 0.5em;
+  border-top: #59545c solid 2px;
+  color: #59545c;
+  font-size: 15px;
+  width: 95%;
+  margin: 0 auto 1em auto;
+  padding-top: 0.5em;
+  overflow: auto;
 }
 
 footer li {
