@@ -47,44 +47,39 @@ p {
 
 hr {
  	border: #423a45 solid 2px;
- }
-
-.heador {
-	list-style: none;
-	font-size: 25px;
-	padding: 0;
-	margin: auto;
-	text-align: center;
-	word-spacing: 6px;
-	transition: word-spacing 0.4s;
 }
 
-.heador:hover {
-	transition: word-spacing 0.4s;
-	word-spacing: 12px;
+.header:hover li {
+	transition: padding 0.4s;
+	padding: 5px 10px;
 }
 
-.heador li {
+.header li {
 	display: inline;
+	padding: 5px 6px;
+	transition: padding 0.4s;
 }
 
-.heador a {
+.header a {
 	color: white;
 	border-bottom: #322A3600 solid 2px;
 	transition: border-bottom 0.3s;
 }
 
-.heador a:hover {
+.header a:hover {
 	border-bottom: #322A36 solid 2px;
 	transition: border-bottom 0.3s;
 	text-shadow: #FFFFFF 0 0 3px;
 }
 
+img {
+  pointer-events: none;
+}
+
 img.intro {
 	width: 300px;
 	float: right;
-	padding: 5px 5px 5px 0;
- }
+}
 
  .container {
 	text-align: center;
@@ -105,11 +100,11 @@ img.intro {
 	line-height: 21px;
 }
 
-.quote::before {
+p.quote::before, span.quote::before {
 	content: '“';
 }
 
-.quote::after {
+p.quote::after, span.quote::after {
 	content: '”';
 }
 
@@ -117,6 +112,11 @@ img.intro {
 	margin: 0 auto;
 	padding-bottom: 5px;
 	max-width: 80%;
+}
+
+div.quote {
+	width: max-content;
+	text-align: left;
 }
 
 .quotesource {
@@ -147,12 +147,18 @@ footer {
 	padding-top: 0.5em;
 }
 
-footer li {display: inline;}
+footer li {
+	display: inline;
+}
 
-.footerleft {float: left; line-height: 16px;}
+.footerleft {
+	float: left; 
+	line-height: 16px;
+}
 
-.footerright {float: right;}
-
+.footerright {
+	float: right;
+}
 
 /* 404 page */
 
@@ -170,7 +176,6 @@ footer li {display: inline;}
 	bottom: 0;
 	width: 100%;
 	text-align: center;
-	height: auto;
 }
 
 /* MO BILE SEE ESS ESS */
@@ -206,21 +211,12 @@ footer li {display: inline;}
 	.footerright {padding-top:5px;}
 }
 
-.error {
-	text-align: center;
-	font-size: 25:
-}
-
 .containerror img {
 	width: 100%;
 }
 
 .containerror {
-	position: absolute;
 	bottom: 100;
-	width: 100%;
-	text-align: center;
-	height: auto;
 }
 
 /** Phones - landscape **/
