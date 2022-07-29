@@ -47,39 +47,44 @@ p {
 
 hr {
  	border: #423a45 solid 2px;
+ }
+
+.heador {
+	list-style: none;
+	font-size: 25px;
+	padding: 0;
+	margin: auto;
+	text-align: center;
+	word-spacing: 6px;
+	transition: word-spacing 0.4s;
 }
 
-.header:hover li {
-	transition: padding 0.4s;
-	padding: 5px 10px;
+.heador:hover {
+	transition: word-spacing 0.4s;
+	word-spacing: 12px;
 }
 
-.header li {
+.heador li {
 	display: inline;
-	padding: 5px 6px;
-	transition: padding 0.4s;
 }
 
-.header a {
+.heador a {
 	color: white;
 	border-bottom: #322A3600 solid 2px;
 	transition: border-bottom 0.3s;
 }
 
-.header a:hover {
+.heador a:hover {
 	border-bottom: #322A36 solid 2px;
 	transition: border-bottom 0.3s;
 	text-shadow: #FFFFFF 0 0 3px;
 }
 
-img {
-  pointer-events: none;
-}
-
 img.intro {
 	width: 300px;
 	float: right;
-}
+	padding: 5px 5px 5px 0;
+ }
 
  .container {
 	text-align: center;
@@ -100,11 +105,11 @@ img.intro {
 	line-height: 21px;
 }
 
-p.quote::before, span.quote::before {
+.quote::before {
 	content: '“';
 }
 
-p.quote::after, span.quote::after {
+.quote::after {
 	content: '”';
 }
 
@@ -112,11 +117,6 @@ p.quote::after, span.quote::after {
 	margin: 0 auto;
 	padding-bottom: 5px;
 	max-width: 80%;
-}
-
-div.quote {
-	width: max-content;
-	text-align: left;
 }
 
 .quotesource {
@@ -147,42 +147,31 @@ footer {
 	padding-top: 0.5em;
 }
 
-footer li {
-	display: inline;
-}
+footer li {display: inline;}
 
-.footerleft {
-	float: left; 
-	line-height: 16px;
-}
+.footerleft {float: left; line-height: 16px;}
 
-.footerright {
-	float: right;
-}
+.footerright {float: right;}
 
 
 /* 404 page */
 
 .error {
 	text-align: center;
+	font-size: 25;
 }
 
-p.error {
-	font-size: 25px;
+.containerror img {
+	width: 25%;
 }
 
-.error img {
-	display: block;
-	margin: 2em auto 0;
-	width: 27%;
-}
-
-div.error {
+.containerror {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
+	text-align: center;
+	height: auto;
 }
-
 
 /* MO BILE SEE ESS ESS */
 
@@ -200,9 +189,11 @@ div.error {
 		float: none;
 	}
 	
-	.heador {font-size: 21px;}
+	.heador {
+		font-size: 21px;
+	}
 	  
-	footer {padding-top: 1%;}
+	footer { padding-top: 1%;}
 	
 	footer li {
 	   display: block;
@@ -215,6 +206,22 @@ div.error {
 	.footerright {padding-top:5px;}
 }
 
+.error {
+	text-align: center;
+	font-size: 25:
+}
+
+.containerror img {
+	width: 100%;
+}
+
+.containerror {
+	position: absolute;
+	bottom: 100;
+	width: 100%;
+	text-align: center;
+	height: auto;
+}
 
 /** Phones - landscape **/
 
@@ -237,7 +244,7 @@ div.error {
 	.container {
 	   width: 95%;
 	   font-size: 24px;
-	}
+	 }
 	
 	img.intro { 
 	   width: 50%; 
@@ -269,18 +276,18 @@ div.error {
 	.container {
 	   width: 95%;
 	   font-size: 24px;
-	}
+	 }
 	
 	img.intro { 
 	   width: 40%; 
 	   padding-top: 0;
 	}
 	
-	.introtext { width: 60%;}
+	.introtext {  width: 60%; }
 	
-	.heador {font-size: 30px;}
+	.heador { font-size: 30px; }
 	
-	footer {font-size: 20px;}
+	footer { font-size: 20px; }
 }
 
 
