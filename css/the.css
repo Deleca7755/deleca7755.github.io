@@ -210,10 +210,8 @@ footer li {
 	}
 	
 	.header {
-		font-size: 21px;
+		font-size: 25px;
 	}
-	  
-	footer { padding-top: 1%;}
 	
 	footer li {
 	   display: block;
@@ -226,13 +224,8 @@ footer li {
 	.footerright {padding-top:5px;}
 
 	.containerror img {
-		width: 100%;
+		width: 90%;
 	}
-	
-	.containerror {
-		bottom: 100;
-	}
-
 }
 
 /** Phones - landscape **/
@@ -249,22 +242,48 @@ footer li {
 	}
 }
 
+/** iPhone 10 landscape ://// **/
+
+@media (min-width: 812px) and (max-height: 375px) and (orientation: landscape) {
+
+	.container {
+	   width: 95%;
+	   font-size: 18px;
+	}
+	 
+	.introtext {
+	   width: initial;
+	}
+	
+	img.intro {
+	   width: 35%;
+	}
+	
+	footer li {
+		font-size: 16px;
+ 	}
+	
+	.error  {
+		font-size: 20;
+	}
+}
+
 /** iPad - portrait **/
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
 
 	.container {
 	   width: 95%;
-	   font-size: 24px;
+	   font-size: 22px;
 	 }
 	
 	img.intro { 
-	   width: 50%; 
-	   padding-top: 5em;
+	   width: 45%; 
+	   padding-top: 2em;
 	}
 	   
 	.introtext {width: 50%;}
 	
-	.header {font-size: 30px;}
+	.header {font-size: 40px;}
 	
 	footer {font-size: 20px;}
 	
@@ -278,20 +297,26 @@ footer li {
 	
 	.footerright {padding-top:5px;}
 	
+	.error {
+     font-size: 40;
+	}
+	
+	.containerror img {
+      width: 70%;
+	}
 }
 
 /** iPad - landscape **/
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+@media (min-width: 768px) and (max-width: 1080px) and (min-height: 768px) and (orientation: landscape) {
 
 	.container {
 	   width: 95%;
-	   font-size: 24px;
+	   font-size: 20px;
 	 }
 	
 	img.intro { 
 	   width: 40%; 
-	   padding-top: 0;
 	}
 	
 	.introtext {  width: 60%; }
@@ -299,29 +324,22 @@ footer li {
 	.header { font-size: 30px; }
 	
 	footer { font-size: 20px; }
-}
-
-
-/** iPhone 10 landscape ://// **/
-
-@media (width: 812px) and (orientation: landscape) {
-
-	.container {
-	   width: 95%;
-	   font-size: 18px;
-	}
-	 
-	.introtext {
-	   width: initial;
-	}
-	
-	img.intro {
-	   width: 38%;
-	   padding: initial;
-	}
 	
 	footer li {
-		font-size: 16px;
- 	}
-
+	   display: block;
+	   text-align:center;
+	   font-size: 20px;
+	}
+	
+	.footerleft, .footerright {float: none;}
+	
+	.footerright {padding-top:5px;}
+	
+	.error {
+     font-size: 40;
+	}
+	
+	.containerror img {
+      width: 40%;
+	}
 }
