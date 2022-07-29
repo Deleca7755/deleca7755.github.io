@@ -197,7 +197,7 @@ footer li {
 
 /** Phones - portrait **/
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 480px) and (orientation : portrait) {
 
 	.container {
 		width: 90%;
@@ -209,7 +209,7 @@ footer li {
 		float: none;
 	}
 	
-	.heador {
+	.header {
 		font-size: 21px;
 	}
 	  
@@ -237,7 +237,7 @@ footer li {
 
 /** Phones - landscape **/
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 481px) and (max-width: 767px) and (orientation: landscape) {
 
 	.container {
 		width: 95%;
@@ -249,9 +249,8 @@ footer li {
 	}
 }
 
-
 /** iPad - portrait **/
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
 
 	.container {
 	   width: 95%;
@@ -265,7 +264,7 @@ footer li {
 	   
 	.introtext {width: 50%;}
 	
-	.heador {font-size: 30px;}
+	.header {font-size: 30px;}
 	
 	footer {font-size: 20px;}
 	
@@ -297,7 +296,7 @@ footer li {
 	
 	.introtext {  width: 60%; }
 	
-	.heador { font-size: 30px; }
+	.header { font-size: 30px; }
 	
 	footer { font-size: 20px; }
 }
@@ -305,7 +304,7 @@ footer li {
 
 /** iPhone 10 landscape ://// **/
 
-@media (width: 812px) {
+@media (width: 812px) and (orientation: landscape) {
 
 	.container {
 	   width: 95%;
