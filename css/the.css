@@ -161,6 +161,8 @@ footer {
 footer > ul {
 	margin: 0;
 	padding: 0;
+	display: flex;
+	align-content: flex-start;
 }
 
 footer li {
@@ -168,7 +170,7 @@ footer li {
 }
 
 .footerright {
-	float: right;
+	margin: 0 0 0 auto;
 }
 
 /* 404 page */
